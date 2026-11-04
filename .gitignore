@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Data (real data is private → never committed)
+data/raw/
+data/processed/
+data/labels/
+*.duckdb
+*.duckdb.wal
+# ...except the committable synthetic sample — 100% fake, safe to track.
+!data/synthetic/insta.duckdb
+
+# Real-data-derived outputs (figures, tables) — never committed.
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+.ua/
+
+# Personal learning journal
+.claude/learning-journal.md
+
+# Local tool files
+.claude/

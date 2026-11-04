@@ -1,0 +1,13 @@
+# Streamlit theme — matches the dashboard palette. Dark base for the
+# flashy portfolio look; the app auto-detects the viewer's theme and passes the
+# matching mode to every Plotly figure, so light works too.
+[theme]
+base = "dark"
+primaryColor = "#3987e5"          # palette categorical slot 1 (dark)
+backgroundColor = "#0d0d0d"        # page plane
+secondaryBackgroundColor = "#1a1a19"  # chart surface (cards/sidebar)
+textColor = "#ffffff"
+font = "sans serif"
+
+[server]
+headless = true
