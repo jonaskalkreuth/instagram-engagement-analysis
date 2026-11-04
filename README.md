@@ -5,6 +5,8 @@ The repo ships a synthetic sample built to reproduce the pattern of those findin
 Anyone can run the pipeline and the dashboard on it without credentials.
 The synthetic numbers are not the account's real numbers.
 
+**Live demo (synthetic data):** https://instagram-engagement-analysis-busaeulgqrnwwzwp9zph5y.streamlit.app/
+
 **Question:** which content characteristics (theme, format, caption, timing) are
 associated with higher engagement, once account growth is taken out?
 
