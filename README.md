@@ -141,11 +141,10 @@ synthetic DB.
 
 ## Repository history
 
-This repository is a fresh copy of the original project, created without its git history.
-The original repo had the full development history in its commits.
-Real Instagram data was never meant to be committed, but old commits were not all audited.
-Re-creating the repo from one checked snapshot makes sure no personal data from old commits can leak.
-The original history is kept privately.
+This repository is a clean snapshot of a private project, published without its commit history.
+I developed the project between July and November 2026, across 54 commits.
+It was built on my real Instagram data, so I chose to publish one audited state rather than audit every past commit.
+The full development history is kept privately.
 
 ## License
 
